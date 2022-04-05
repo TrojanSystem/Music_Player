@@ -57,7 +57,7 @@ class LibraryScreen extends StatelessWidget {
                           (int index) {
                             return AlbumItem(
                               index: index,
-                              albumArt: 'images/4.jpg',
+                              albumArt: 'images/2.jpg',
                               albumTitle: 'The Martial Mothers',
                               albumYear: '2000',
                             );
@@ -381,7 +381,7 @@ class LibraryScreen extends StatelessWidget {
                 width: double.infinity,
                 height: 85,
               ),
-            )
+            ),
           ],
         ),
       ),
